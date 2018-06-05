@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.custom-tooltip {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #efefef;
+  width: 140px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 12px;
+}
+
+
+.alt-tooltip {
+  transform: translateX(-70px);
+}
+
+.label {
+  margin: 0 0;
+  font-weight: 500;
+}
+
+.event-label text {
+  display: none;
+}
+
+.event-label:hover text {
+  display: block;
+}
